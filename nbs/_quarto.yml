@@ -1,0 +1,27 @@
+project:
+  type: website
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+website:
+  title: "Sangyu's Vis Blog"
+  twitter-card: true
+  open-graph: true
+  repo-actions: [issue]
+  navbar:
+    right:
+      - text: Blog
+        href: blog.qmd
+      - icon: github
+        href: https://github.com/sangyu
+      - icon: twitter
+        href: https://twitter.com/xusangyu
+    search: true
+  sidebar:
+    style: docked
+
+metadata-files: [nbdev.yml, sidebar.yml]

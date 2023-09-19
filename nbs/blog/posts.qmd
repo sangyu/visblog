@@ -1,0 +1,14 @@
+---
+title: posts
+subtitle: Sangyu’s data vis blog 
+listing:
+  sort: "date desc"
+  contents: "posts"
+  sort-ui: false
+  filter-ui: false
+  categories: true
+  feed: true
+  type: table
+  fields: [image, date, title, author, reading-time]
+page-layout: full
+---

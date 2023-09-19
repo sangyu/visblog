@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "visblog"
+  site-url: "https://sangyu.github.io/visblog"
+  description: "a test blog"
+  repo-branch: main
+  repo-url: "https://github.com/sangyu/visblog"

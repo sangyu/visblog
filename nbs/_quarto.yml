@@ -15,7 +15,7 @@ website:
   navbar:
     right:
       - text: Blog
-        href: blog.qmd
+        href: blog/posts.qmd
       - icon: github
         href: https://github.com/sangyu
       - icon: twitter

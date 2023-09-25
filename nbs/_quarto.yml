@@ -22,6 +22,15 @@ website:
         href: https://twitter.com/xusangyu
     search: true
   sidebar:
-    style: docked
-
-metadata-files: [nbdev.yml, sidebar.yml]
+    style: "docked"
+    search: true
+    contents:
+      - index.ipynb
+      - section: blog
+        contents:
+          - blog/posts.qmd
+          - section: posts
+            contents:
+              - blog/posts/PenguinsDabest.ipynb
+              - blog/posts/PenguinsScatter.ipynb
+metadata-files: [nbdev.yml]

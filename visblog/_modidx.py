@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://sangyu.github.io',
                 'git_url': 'https://github.com/sangyu/visblog',
                 'lib_path': 'visblog'},
-  'syms': {'visblog.core': {'visblog.core.foo': ('core.html#foo', 'visblog/core.py')}}}
+  'syms': {}}

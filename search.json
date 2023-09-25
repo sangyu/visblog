@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "welcome.html",
+    "href": "welcome.html",
+    "title": "Welcome to Vis Blog",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "welcome.html#welcome",
+    "href": "welcome.html#welcome",
+    "title": "Welcome to Vis Blog",
+    "section": "Welcome",
+    "text": "Welcome\nThis is a data vis blog by Sangyu"
+  },
+  {
+    "objectID": "blog/posts/a_scatter_plot_of_palmer_penguins.html",
+    "href": "blog/posts/a_scatter_plot_of_palmer_penguins.html",
+    "title": "A Scatter Plot of Palmer Penguins",
+    "section": "",
+    "text": "import pandas as pd\nimport seaborn as sns \nfrom palmerpenguins import load_penguins\nimport dabest\nimport matplotlib.pyplot as plt\npenguins = load_penguins()\nsns.scatterplot(data = penguins, x = 'bill_length_mm', y = 'body_mass_g', hue = 'species');"
+  },
+  {
+    "objectID": "blog/posts/a_contrast_plot_of_palmer_penguins.html",
+    "href": "blog/posts/a_contrast_plot_of_palmer_penguins.html",
+    "title": "A Contrast Plot of Palmer Penguins",
+    "section": "",
+    "text": "import pandas as pd\nimport dabest\nfrom palmerpenguins import load_penguins\nimport dabest\nimport matplotlib.pyplot as plt\nimport matplotlib\nimport warnings\nwarnings.filterwarnings(\"ignore\")\npenguins = load_penguins()\na = dabest.load(data = penguins, x = 'species', idx = tuple(penguins.species.unique()), y = 'body_mass_g');\nf = a.mean_diff.plot();"
+  },
+  {
+    "objectID": "blog/posts.html",
+    "href": "blog/posts.html",
+    "title": "posts",
+    "section": "",
+    "text": "A Contrast Plot of Palmer Penguins\n\n\n1 min\n\n\n\nSangyu Xu\n\n\nSep 18, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nA Scatter Plot of Palmer Penguins\n\n\n1 min\n\n\n\nSangyu Xu\n\n\nSep 17, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  }
+]
